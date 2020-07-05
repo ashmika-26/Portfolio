@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/superslides.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+
+  </head>
+
+  <body>
+
+    <div id="slides">
+      <div class="overlay"></div>
+      <div class="slides-container">
+        <img src="img/slide5.jpg" alt="">
+        <img src="img/slide2.jpg" alt="">
+        <img src="img/slide1.jpeg" alt="">
+        <img src="img/slide4.jpg" alt="">
+
+      </div>
+
+      <div class="titleMessage">
+        <div class="heading">
+          <p class="main">ASHMIKA BALLAMUDI</p>
+          <p class="sub">CS Student</p>
+        </div>
+        <div class="resume">
+          <a class="resumeButton" href="img/resume_ashmika.pdf" target="_blank">Download Resume<i class="fas fa-download"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div id="about" class = "aboutsection section">
+      <div class="container">
+          <div class="row">
+            <div class = "col-md-12">
+              <div class="aboutImage">
+              <img src="img/about.jpeg" class="image" alt="That's me">
+              </div>
+              <div class = "col-md-12">
+                <div class= "aboutMe">
+                  <h1>About Me</h1>
+                  <p>Hey! My name is Ashmika Ballamudi and I am a Third-year Computer Science student in California State University East Bay. I live in Milpitas, California and enjoy the scenic trails and hikes of California immensely! </p>
+                  <p>From an early age, I have been intrested in all things Computing. I remember how excited I was when I built my first Html page in 5th Grade. Now I love working with Django, JavaScript, HTML5, CSS and Bootstrap to create new websites.</p>
+                  <p>Having a strong foundation in Math, programming logic and full-stack develpment, I always look forward to more projects in order to gain knowledge.</p>
+               </div>
+            </div>
+           </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="skills" class = "skillsection section">
+        <div class="container">
+            <div class="row">
+              <div class = "col-md-12 text-center">
+              <h1>Technical Skills</h1>
+              <p>Hold and Swipe to see more</p>
+              </div>
+
+              <div class="owl-carousel owl-theme owl-loaded">
+                    <div class = "skill">
+                      <span class="chart" data-percent="90">
+                        <span class="percent">90</span>
+                        <canvas height="152" width="152"></canvas>
+                      </span>
+                      <h4>Python</h4>
+                    </div>
+
+                    <div class = "skill">
+                      <span class="chart" data-percent="80">
+                        <span class="percent">80</span>
+                        <canvas height="152" width="152"></canvas>
+                      </span>
+                      <h4>C++</h4>
+                    </div>
+
+                    <div class = "skill">
+                      <span class="chart" data-percent="70">
+                        <span class="percent">70</span>
+                        <canvas height="152" width="152"></canvas>
+                      </span>
+                      <h4>JavaScript</h4>
+                    </div>
+
+                    <div class = "skill">
+                      <span class="chart" data-percent="95">
+                        <span class="percent">67</span>
+                        <canvas height="152" width="152"></canvas>
+                      </span>
+                      <h4>HTML5</h4>
+
+                    </div>
+
+                    <div class = "skill">
+                      <span class="chart" data-percent="85">
+                        <span class="percent">85</span>
+                        <canvas height="152" width="152"></canvas>
+                      </span>
+                      <h4>Css3</h4>
+
+                    </div>
+
+                    <div class = "skill">
+                      <span class="chart" data-percent="90">
+                        <span class="percent">90</span>
+                        <canvas height="152" width="152"></canvas>
+                      </span>
+                      <h4>Django</h4>
+                    </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div id="portfolio" class = "projectsection section">
+          <div class="container">
+              <div class="row">
+                  <div class="heading">
+                    <h1>PROJECTS</h1>
+                  </div>
+                  <div class="filter">
+                    <ul id="filters">
+                      <li><a href="#" data-filter="*" class="current">ALL</a></li>
+                      <li><a href="#" data-filter=".python">Python</a></li>
+                      <li><a href="#" data-filter=".javascript">JavaScript</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="itemsContainer">
+                    <ul class="items">
+
+                      <li class="python col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                        <div class="item">
+                          <img src="img/thumbnails/python1-square.png">
+                          <div class="icons">
+                            <a href="img/full/python1.png" title="View full Image" class="openButton" data-fancybox data-caption="Coded entirely in Python, it is a useful tool for the course -Numerical
+                            Analysis and Linear Algebra. Can be used for Matrix Manipulation and
+                            analysis such as Horner's method and Newton's Method.">
+                              <i class="fas fa-expand"></i>
+                            </a>
+                            <a href="https://github.com/ashmika-26/Numerical-Analysis-Tool.git" title="Link" target="_blank" class="projectLink">
+                              <i class="fas fa-link"></i>
+                            </a>
+                          </div>
+                          <div class="imageOverlay"></div>
+                          <div class="clearfix"><div class="para1">Coded entirely in Python, it is a useful tool for the course -Numerical
+                          Analysis and Linear Algebra. Can be used for Matrix Manipulation and
+                          analysis such as Horner's method and Newton's Method.</div></div>
+                         </div>
+                        </li>
+
+                        <li class="python col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                          <div class="item">
+                            <img src="img/thumbnails/python2-square.png">
+                            <div class="icons">
+                              <a href="img/full/python2.png" title="View full Image" class="openButton" data-fancybox data-caption="An application made with Django forms, Html5, Css3, Bootstrap and
+                                SQLite 3. Implementation of AUTH modules which allows user to
+                                signup/login so as to manage their daily chores efficiently.">
+                                <i class="fas fa-expand"></i>
+                              </a>
+                              <a href="https://todoit.pythonanywhere.com" title="Link" target="_blank" class="projectLink">
+                                <i class="fas fa-link"></i>
+                              </a>
+                            </div>
+                            <div class="imageOverlay"></div>
+                            <div class="clearfix"><div class="para2">An application made with Django forms, Html5, Css3, Bootstrap and
+                              SQLite 3. Implementation of AUTH modules which allows user to
+                              signup/login so as to manage their daily chores efficiently.</div></div>
+                           </div>
+                          </li>
+
+
+                          <li class="python col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                              <img src="img/thumbnails/python3-square.png">
+                              <div class="icons">
+                                <a href="img/full/python3.png" title="View full Image" class="openButton" data-fancybox data-caption="An erlier rendition of my Portfolio made using Django, HTML5, CSS3 and Bootstrap.
+                                  Created a database, designed a layout for the website, added and
+                                  updated URL paths.">
+                                  <i class="fas fa-expand"></i>
+                                </a>
+                                <a href="https://todoit.pythonanywhere.com" title="Link" target="_blank" class="projectLink">
+                                  <i class="fas fa-link"></i>
+                                </a>
+                              </div>
+                              <div class="imageOverlay"></div>
+                              <div class="clearfix"><div class="para3">An erlier rendition of my Portfolio made using Django, HTML5, CSS3 and Bootstrap.
+                                Created a database, designed a layout for the website, added and
+                                updated URL paths.</div></div>
+                             </div>
+                            </li>
+
+                            <li class="javascript col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                              <div class="item">
+                                <img src="img/thumbnails/web1-square.png">
+                                <div class="icons">
+                                  <a href="img/full/web1.png" title="View full Image" class="openButton" data-fancybox data-caption="Created a fun and addicting dice game using JavaScript, HTML5 and CSS3.
+                                    You can enter yours and your friend's name and play the game with them multiple times">
+                                    <i class="fas fa-expand"></i>
+                                  </a>
+                                  <a href="https://ashmika-26.github.io/Budget-App/" title="Link" target="_blank" class="projectLink">
+                                    <i class="fas fa-link"></i>
+                                  </a>
+                                </div>
+                                <div class="imageOverlay"></div>
+                                <div class="clearfix"><div class="para4">Created a fun and addicting dice game using JavaScript, HTML5 and CSS3.
+                                  You can enter yours and your friend's name and play the game with them multiple times.</div></div>
+                               </div>
+                              </li>
+
+                            <li class="javascript col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                              <div class="item">
+                                <img src="img/thumbnails/web2-square.png">
+                                <div class="icons">
+                                  <a href="img/full/web2.png" title="View full Image" class="openButton" data-fancybox data-caption="An Application made using various features of JavaScript like DOM
+                                    manipulation along with HTML5 and CSS3. Allows you to add and delete
+                                    Income/Expenses and calculate total budget for a particular month.">
+                                    <i class="fas fa-expand"></i>
+                                  </a>
+                                  <a href="https://ashmika-26.github.io/Budget-App/" title="Link" target="_blank" class="projectLink">
+                                    <i class="fas fa-link"></i>
+                                  </a>
+                                </div>
+                                <div class="imageOverlay"></div>
+                                  <div class="clearfix"><div class="para5">An Application made using various features of JavaScript like DOM
+                                  manipulation along with HTML5 and CSS3. Allows you to add and delete
+                                  Income/Expenses and calculate total budget for a particular month.</div></div>
+                               </div>
+                              </li>
+
+                              <li class="javascript col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                                <div class="item">
+                                  <img src="img/thumbnails/web3-square.png">
+                                  <div class="icons">
+                                    <a href="img/full/web3.png" title="View full Image" class="openButton" data-fancybox data-caption="This personal prtfolio made using JavaScript, JQuery, HTML5, CSS3 and Bootstrap.
+                                      Learned new things about manipulating the layout using CSS and JS.">
+                                      <i class="fas fa-expand"></i>
+                                    </a>
+                                    <a href="#" title="Link" class="projectLink">
+                                      <i class="fas fa-link"></i>
+                                    </a>
+                                  </div>
+                                  <div class="imageOverlay"></div>
+                                  <div class="clearfix"><div class="para6">This personal prtfolio made using JavaScript, JQuery, HTML5, CSS3 and Bootstrap.
+                                    Learned new things about manipulating the layout using CSS and JS.</div><div>
+                                </li>
+                      </ul>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+        <div id="contact" class = "contactsection section">
+          <div class="col-md-12 text-center">
+            <div class="container">
+              <h1 class="subheading">CONTACT</h1>
+              <h5>I'd love to hear from you! Send me an Email.</h5>
+              <a href="mailTo:ashmikaballamudi@gmail.com" class="contactbutton"><i class="fas fa-envelope"></i></a>
+              <h5>You can also follow me here!</h5>
+              <ul>
+                <li>
+                  <a href="https://www.linkedin.com/in/ashmika-ballamudi/" target="_blank"><i class = "fab fa-linkedin linkedin" style="color:black"></i></a>
+                </li>
+                <li>
+                  <a href="https://github.com/ashmika-26" target="_blank"> <i class="fab fa-github git" style="color:black"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/ashmu.b/" target="_blank"> <i class="fab fa-instagram insta" style="color:black"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="copyrightsection section">
+          <div class="col-md-12 text-center">
+            <p>&copy; Copyright Ashmika Ballamudi 2020</p>
+          </div>
+        </div>
+
+    <script src = "js/jquery.superslides.min.js"></script>
+    <script src = "js/jquery.easypiechart.min.js"></script>
+    <script src = "js/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src = "js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script type = "text/javascript" src = "https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  </body>
+</html>
