@@ -113,16 +113,9 @@ body {
 }
 .aboutImage{
   width:100%;
-  margin:0 auto;
 }
 .aboutsection h1{
-  color: #16a085;
-  padding:0px 0px 15px;
-}
-
-.aboutsection p{
-  font-size: 20px;
-  font-weight: 300;
+  color:#16a085;
 }
 .aboutsection,
 .projectsection{
