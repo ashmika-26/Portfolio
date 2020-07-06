@@ -240,6 +240,7 @@ body {
   -transition: all 0.2s linear, 0.4s;
 }
 
+
 .items .imageOverlay{
   width:100%;
   height:100%;
@@ -289,6 +290,7 @@ body {
 .items{
   padding: 0;
 }
+
 
 .clearfix .para1{
   text-align: center;

@@ -20,13 +20,6 @@ $(document).ready(function() {
     play: 4000
   });
 
-  //var typed = new Typed(".typed",{
-    //strings: ["Student","Web Developer","Dancer"],
-    //typeSpeed:100,
-    //loop:true,
-    //startDelay: 1000,
-    //showCursor:false
-  //});
 
   $('.owl-carousel').owlCarousel({
       loop:true,
