@@ -1,6 +1,6 @@
 $(window).on("load",function(){
-  $(".loader .inner").fadeOut(1000,function() {
-    $(".loader").fadeOut(750)
+  $(".loader .inner").fadeOut(700,function() {
+    $(".loader").fadeOut(950)
   });
 
   $(".items").isotope({

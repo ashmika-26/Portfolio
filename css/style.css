@@ -44,6 +44,7 @@ body {
 .titleMessage .heading .main{
   font-size: 60px;
   font-weight: 300;
+
 }
 .titleMessage .heading .sub{
   color:#7f8c8d;
@@ -108,7 +109,7 @@ body {
 }
 
 .section{
-  padding: 100px 0;
+  padding: 70px 0;
 }
 
 .aboutImage{
@@ -121,6 +122,7 @@ body {
 .aboutMe h1{
   color: #16a085;
   text-align: center;
+  padding:15px 0px 15px;
 }
 
 .aboutMe p{
@@ -195,7 +197,7 @@ body {
 
 .section .heading{
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   width:100%;
 }
 .items li {
@@ -336,16 +338,23 @@ body {
   color: #16a085;
 }
 
-.contactbutton,
 .resumeButton{
   color: #fff;
   padding: 10px 15px;
   display: inline-block;
   margin-top: 20px;
 }
+
+.contactbutton{
+  color: #fff;
+  padding: 10px 10px;
+  display: inline-block;
+  margin-top: 1px;
+}
 .linkedin,.git,.insta{
   display:inline-block;
-  margin-top: 10px;
+  padding: 10px 10px;
+  margin-top: 1px 10px;
 }
 .contactsection i{
   font-size: 25px;
@@ -357,7 +366,12 @@ body {
     padding: 10px;
 }
 .contactsection ul{
-  padding:5px;
+  padding:0px 5px 0px;
+  margin:0px;
+}
+
+.contactsection .container{
+  padding
 }
 
 .contactbutton:hover{
@@ -372,24 +386,43 @@ body {
 }
 .resumeButton:hover{
   text-decoration: none;
-  color:#fff;
-  font-size: 30px;
-
+  color:#16a085;
+  background-color: #fff;
+  -webkit-transition: all 0.2s linear, 1s;
+  -moz-transition: all 0.2s linear, 1s;
+  -o-transition: all 0.2s linear, 1s;
+  -ms-transition: all 0.2s linear, 1s;
+  -transition: all 0.2s linear, 1s;
 }
 .linkedin:hover{
   text-decoration: none;
-  font-size: 40px;
 
+  background-color: #0072b1;
+  -webkit-transition: all 0.2s linear, 1s;
+  -moz-transition: all 0.2s linear, 1s;
+  -o-transition: all 0.2s linear, 1s;
+  -ms-transition: all 0.2s linear, 1s;
+  -transition: all 0.2s linear, 1s;
 }
 .git:hover{
   text-decoration: none;
-  font-size: 40px;
 
+  background-color: #7DBBE6;
+  -webkit-transition: all 0.2s linear, 1s;
+  -moz-transition: all 0.2s linear, 1s;
+  -o-transition: all 0.2s linear, 1s;
+  -ms-transition: all 0.2s linear, 1s;
+  -transition: all 0.2s linear, 1s;
 }
 .insta:hover{
   text-decoration: none;
-  font-size: 40px;
 
+  background-color:#bc2a8d;
+  -webkit-transition: all 0.2s linear, 1s;
+  -moz-transition: all 0.2s linear, 1s;
+  -o-transition: all 0.2s linear, 1s;
+  -ms-transition: all 0.2s linear, 1s;
+  -transition: all 0.2s linear, 1s;
 }
 
 .copyrightsection{
