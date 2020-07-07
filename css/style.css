@@ -291,7 +291,6 @@ body {
   padding: 0;
 }
 
-
 .clearfix .para1{
   text-align: center;
   padding: 2px 1px;
@@ -387,7 +386,7 @@ body {
 }
 .linkedin:hover{
   text-decoration: none;
-
+  color:#000;
   background-color: #0072b1;
   -webkit-transition: all 0.2s linear, 1s;
   -moz-transition: all 0.2s linear, 1s;
@@ -397,8 +396,7 @@ body {
 }
 .git:hover{
   text-decoration: none;
-
-  background-color: #7DBBE6;
+  background-color: #000;
   -webkit-transition: all 0.2s linear, 1s;
   -moz-transition: all 0.2s linear, 1s;
   -o-transition: all 0.2s linear, 1s;
@@ -407,7 +405,7 @@ body {
 }
 .insta:hover{
   text-decoration: none;
-
+  color:#000;
   background-color:#bc2a8d;
   -webkit-transition: all 0.2s linear, 1s;
   -moz-transition: all 0.2s linear, 1s;

@@ -46,9 +46,11 @@ $(document).ready(function() {
     $(window).scroll(function(){
       if(window.pageYOffset > skillsTopOffset - $(window).height() + 200){
         $('.chart').easyPieChart({
+          barColor: function (percent) {
+       return (percent < 50 ? '#cb3935' : percent < 85 ? '#f0ad4e' : '#008000');
+    },
 
                 easing: 'easeInOut',
-                barColor: '#fff',
                 trackColor: false,
                 scaleColor: false,
                 lineWidth: 4,
