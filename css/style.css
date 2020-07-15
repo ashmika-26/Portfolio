@@ -112,6 +112,7 @@ body {
   padding: 70px 0;
 }
 .aboutImage{
+  
   width:100%;
 }
 .aboutsection h1{
@@ -191,9 +192,24 @@ body {
 }
 .items li {
   display: inline-block;
-  padding: 5px;
-
+  padding: 5px 30px 30px 5px;
 }
+
+.item {
+    width: 100%;
+    margin: 10px;
+    background-color:white;
+    display: inline-block;
+}
+
+.item p{
+    display: inline-block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 .itemsContainer{
   width:100%;
 }
@@ -215,10 +231,12 @@ body {
   width: 90px;
   height: 40px;
   left: 50%;
+  right:50%;
   top:50%;
   margin: -20px auto 0 -47px;
   text-align: center;
   z-index: 3;
+
 }
 .items i{
   color:#fff;
@@ -232,6 +250,7 @@ body {
   background-color: #16a085;
   position : relative;
   display:inline-block;
+  visibility: hidden;
 
   -webkit-transition: all 0.2s linear, 0.4s;
   -moz-transition: all 0.2s linear, 0.4s;
@@ -239,7 +258,6 @@ body {
   -ms-transition: all 0.2s linear, 0.4s;
   -transition: all 0.2s linear, 0.4s;
 }
-
 
 .items .imageOverlay{
   width:100%;
@@ -265,18 +283,24 @@ body {
 .items .openButton{
   float: left;
   left:-200px;
+
+
 }
 
 .items .projectLink{
   float: right;
   right: -200px;
+  visibility: hidden;
+
 }
 
 .items .item:hover .openButton{
+  visibility: visible;
   left:0px;
 }
 
 .items .item:hover .projectLink{
+  visibility: visible;
   right:0px;
 }
 
@@ -291,37 +315,16 @@ body {
   padding: 0;
 }
 
-.clearfix .para1{
-  text-align: center;
-  padding: 2px 1px;
-}
-.clearfix .para2{
-  text-align: center;
-  padding: 2px 3px;
-}
-.clearfix .para3{
-  text-align: center;
-  padding: 2px 10px;
-}
-.clearfix .para4{
-  text-align: center;
-  padding: 2px 20px;
-}
-.clearfix .para5{
-  text-align: center;
-  padding: 2px 1px;
-}
-.clearfix .para6{
-  text-align: center;
-  padding: 2px 1px;
-}
+
 .clearfix{
   color:#000;
+  text-align:center;
 }
 .clearfix :: after{
   content:"";
   clear:both;
   display:table;
+
 }
 
 .projectsection h1{

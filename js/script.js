@@ -20,6 +20,17 @@ $(document).ready(function() {
     play: 4000
   });
 
+  var tallestBox = 0;
+  $(".item").each(function() {
+    var divHeight = $(this).height();
+
+    if (divHeight > tallestBox){
+      tallestBox = divHeight;
+    }
+  });
+  // Apply height & add total vertical padding
+  $(".item").css("height", tallestBox+10);
+
 
   $('.owl-carousel').owlCarousel({
       loop:true,
@@ -75,7 +86,7 @@ $(document).ready(function() {
       $(".items").isotope({
         filter:selector,
         animationOptions:{
-          duration: 1500,
+          duration: 2500,
           easing: 'linear',
           queue: false
         }
