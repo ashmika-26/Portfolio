@@ -11,6 +11,8 @@ $(window).on("load",function(){
       queue: false
     }
   });
+
+
 });
 
 
@@ -19,6 +21,7 @@ $(document).ready(function() {
     animation: 'fade',
     play: 4000
   });
+
 
   var tallestBox = 0;
   $(".item").each(function() {
@@ -30,7 +33,6 @@ $(document).ready(function() {
   });
   // Apply height & add total vertical padding
   $(".item").css("height", tallestBox+10);
-
 
   $('.owl-carousel').owlCarousel({
       loop:true,
