@@ -3,6 +3,18 @@ $(window).on("load",function(){
     $(".loader").fadeOut(950)
   });
 
+  var tallestBox = 0;
+  $(".item").each(function() {
+    var divHeight = $(this).height();
+
+    if (divHeight > tallestBox){
+      tallestBox = divHeight;
+    }
+  });
+  // Apply height & add total vertical padding
+  $(".item").css("height", tallestBox+10);
+
+
   $(".items").isotope({
     filter:'*',
     animationOptions:{
@@ -23,16 +35,6 @@ $(document).ready(function() {
   });
 
 
-  var tallestBox = 0;
-  $(".item").each(function() {
-    var divHeight = $(this).height();
-
-    if (divHeight > tallestBox){
-      tallestBox = divHeight;
-    }
-  });
-  // Apply height & add total vertical padding
-  $(".item").css("height", tallestBox+10);
 
   $('.owl-carousel').owlCarousel({
       loop:true,
